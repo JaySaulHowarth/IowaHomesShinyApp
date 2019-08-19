@@ -3,7 +3,7 @@ Below are the following tools required to build and execute the application.
 ## R
 A comprehensive list of download mirrors can be found [here](https://cran.r-project.org/mirrors.html)
 ## RStudio
-A list of download mirrors for different operation systems can be found [here](https://www.rstudio.com/products/rstudio/download/#download)
+A list of download mirrors for different operating systems can be found [here](https://www.rstudio.com/products/rstudio/download/#download)
 ## MySQL
 A list of all MySQL tools available for download can be found [here](https://dev.mysql.com/downloads/)
 > For the purpose of this application MySQL Server is required. However, MySQL Workbench may be easier to work with and will be used in the following installation guides.
