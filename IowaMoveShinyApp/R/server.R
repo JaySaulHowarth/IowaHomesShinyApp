@@ -4,6 +4,7 @@ library(shiny)
 library(semantic.dashboard)
 library(shiny.semantic)
 
+
 options(scipen = 999)
 #' Predict the price of a house based on some user input
 #'

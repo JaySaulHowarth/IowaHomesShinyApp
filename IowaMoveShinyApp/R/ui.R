@@ -2,19 +2,19 @@ library(shiny)
 library(semantic.dashboard)
 library(shiny.semantic)
 
-required_packages <- c("shiny", "semantic.dashboard", "shiny.semantic")
-new_packages <- required_packages[!(required_packages %in% installed.packages()[,"Package"])] #Get all the ones not already installed
-install.packages(new_packages) #Install all packages not already installed
+#required_packages <- c("shiny", "semantic.dashboard", "shiny.semantic")
+#new_packages <- required_packages[!(required_packages %in% installed.packages()[,"Package"])] #Get all the ones not already installed
+#install.packages(new_packages) #Install all packages not already installed
 
 shinyUI(dashboardPage(
   dashboardHeader(title = "Iowa Homes", color = "violet", inverted = TRUE, ui = uilabel("Iowa Homes"), disable = FALSE ),
-  
+
   dashboardSidebar(
     size = "thin", color = "teal", side = "left",
     menuItem(tabName = "predictions", "Get a \n Quote", icon = uiicon("violet dollar sign icon")),
     menuItem(tabName = "sales", "View Past Sales", icon = uiicon("violet th list icon"))
   ),
-  
+
   dashboardBody(
     tabItems(
       selected = 1,
